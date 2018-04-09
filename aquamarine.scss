@@ -27,7 +27,7 @@ $theme-colors: (
   secondary: #4f70ce,
   light: #f3f3f3,
   dark: #151515,
-  info: #ccc,
+  info: red,
   success: #28a745,
   warning: #ffc107,
   danger: #dc3545
@@ -49,7 +49,7 @@ $headings-font-weight: 200;
 $lead-font-size:   1.30rem;
 
 $spacer: 1.5rem;
-$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 960px);
+
 
 // Components
 $border-width: 1px !default;
@@ -73,6 +73,7 @@ $carousel-indicator-height:                   6px !default;
 // Forms
 $form-group-margin-bottom:       0rem;
 
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 960px);
 @import 'bootstrap-4.0.0';
 
 html,body {
@@ -151,7 +152,7 @@ body > * {
 }
 
 .bg-aquamarine {
-	background: linear-gradient(-30deg, transparentize(theme-color("secondary"), 0.1) 0%, transparentize(theme-color("primary"), 0.1) 50%, transparentize(theme-color("primary"), 0.05) 100%);
+	background: linear-gradient(-30deg, transparentize(theme-color("secondary"), 0.1) 0%, transparentize(theme-color("primary"), 0.) 50%, transparentize(theme-color("primary"), 0.05) 100%);
   color:white;
 }
 
